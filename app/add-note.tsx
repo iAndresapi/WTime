@@ -16,7 +16,7 @@ import * as Haptics from 'expo-haptics';
 import { useSecureStorage } from '@/contexts/SecureStorageContext';
 import type { EncryptedNote } from '@/types';
 
-const NOTE_TYPES: Array<{ value: EncryptedNote['type']; label: string }> = [
+const NOTE_TYPES: { value: EncryptedNote['type']; label: string }[] = [
   { value: 'incident', label: 'Incident' },
   { value: 'medical', label: 'Medical' },
   { value: 'legal', label: 'Legal' },

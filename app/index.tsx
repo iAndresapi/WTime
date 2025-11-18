@@ -13,7 +13,7 @@ export default function StopwatchScreen() {
   const [isRunning, setIsRunning] = useState<boolean>(false);
   const [holdProgress, setHoldProgress] = useState<number>(0);
   
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const holdStartRef = useRef<number | null>(null);
   const hapticCountRef = useRef<number>(0);
   const animationFrameRef = useRef<number | null>(null);

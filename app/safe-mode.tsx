@@ -31,8 +31,8 @@ import * as SMS from 'expo-sms';
 import { useSecureStorage } from '@/contexts/SecureStorageContext';
 import { useRorkAgent } from '@rork-ai/toolkit-sdk';
 
-const PANIC_HOLD_DURATION = 6000;
-const HAPTIC_INTERVAL = 1000;
+const PANIC_HOLD_DURATION = 4000;
+const HAPTIC_INTERVAL = 500;
 
 export default function SafeModeScreen() {
   const router = useRouter();
