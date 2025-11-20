@@ -5,6 +5,7 @@ Cuando alguien clona este repositorio, no encontrará la carpeta node_modules/ p
 Para reconstruir todas las dependencias necesarias, cualquier colaborador solo debe ejecutar:
 
 Instalación de dependencias
+
 Con npm:
 npm install
 
