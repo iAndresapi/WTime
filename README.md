@@ -1,4 +1,4 @@
-# Instrucciones para colaboradores -WTime
+# Instrucciones para colaboradores - WTime
 
 Cuando alguien clona este repositorio, no encontrará la carpeta node_modules/ porque está excluida mediante .gitignore. Este comportamiento es estándar en proyectos basados en Node.js y evita subir miles de archivos innecesarios.
 
