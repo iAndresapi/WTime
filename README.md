@@ -24,3 +24,8 @@ Crean la carpeta node_modules/ localmente.
 Aseguran que el entorno sea idéntico al del proyecto original gracias al archivo package-lock.json o yarn.lock.
 
 No es necesario hacer nada más. Una vez completada la instalación, el proyecto estará listo para ejecutarse conforme a las instrucciones de desarrollo definidas en este repositorio.
+
+Para abrir el proyecto en web:
+npx expo start 
+
+Luego presiona la tecla "W"
